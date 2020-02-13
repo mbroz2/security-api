@@ -14,16 +14,16 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
 
-package javax.security.enterprise;
+package jakarta.security.enterprise;
 
 import java.security.Principal;
 import java.util.Set;
 
-import javax.ejb.SessionContext;
-import javax.security.enterprise.authentication.mechanism.http.AuthenticationParameters;
-import javax.security.enterprise.authentication.mechanism.http.HttpAuthenticationMechanism;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.ejb.SessionContext;
+import jakarta.security.enterprise.authentication.mechanism.http.AuthenticationParameters;
+import jakarta.security.enterprise.authentication.mechanism.http.HttpAuthenticationMechanism;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 /**
  * The SecurityContext provides an access point for programmatic security; an injectable type that is intended to be
@@ -96,7 +96,7 @@ public interface SecurityContext {
      *
      * @param resource the name of the web resource to test access for. This is a <code>URLPatternSpec</code> that
      * identifies the application specific web resources to which the permission pertains. For a full specification of this
-     * pattern see {@link javax.security.jacc.WebResourcePermission#WebResourcePermission(String, String)}.
+     * pattern see {@link jakarta.security.jacc.WebResourcePermission#WebResourcePermission(String, String)}.
      * @param methods one or more methods to check for whether the caller has access to the web resource using one of those methods.
      *
      * @return <code>true</code> if the caller has access to the web resource using one of the given methods, <code>false</code> otherwise.

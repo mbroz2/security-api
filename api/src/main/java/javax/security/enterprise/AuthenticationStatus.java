@@ -14,10 +14,10 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
 
-package javax.security.enterprise;
+package jakarta.security.enterprise;
 
-import javax.security.enterprise.authentication.mechanism.http.HttpAuthenticationMechanism;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.security.enterprise.authentication.mechanism.http.HttpAuthenticationMechanism;
+import jakarta.servlet.http.HttpServletRequest;
 
 /**
  * The AuthenticationStatus is used as a return value by primarily
@@ -25,7 +25,7 @@ import javax.servlet.http.HttpServletRequest;
  * of the authentication process.
  * 
  * <p>
- * For the result from {@link HttpAuthenticationMechanism#validateRequest(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, javax.security.enterprise.authentication.mechanism.http.HttpMessageContext)} 
+ * For the result from {@link HttpAuthenticationMechanism#validateRequest(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, jakarta.security.enterprise.authentication.mechanism.http.HttpMessageContext)} 
  * an AuthenticationStatus must be transformed by the Jakarta EE server into the corresponding Jakarta Authentication <code>AuthStatus</code>
  * according to the following rules:
  * 
@@ -49,10 +49,10 @@ import javax.servlet.http.HttpServletRequest;
  * otherwise not.
  * 
  * <p>
- * The return value of {@link SecurityContext#authenticate(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, javax.security.enterprise.authentication.mechanism.http.AuthenticationParameters)}
+ * The return value of {@link SecurityContext#authenticate(jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse, jakarta.security.enterprise.authentication.mechanism.http.AuthenticationParameters)}
  * , which is also of type AuthenticationStatus, strongly relates to the outcome of the <code>HttpAuthenticationMechanism#validateRequest</code>
  * method as described above, but must be transformed by the Jakarta EE server from the corresponding outcome of the
- * {@link HttpServletRequest#authenticate(javax.servlet.http.HttpServletResponse)} call as follows:
+ * {@link HttpServletRequest#authenticate(jakarta.servlet.http.HttpServletResponse)} call as follows:
  * 
  * <ul>
  *   <li> <code>true</code> to <code>AuthenticationStatus.SUCCESS</code> </li>

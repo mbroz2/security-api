@@ -14,11 +14,11 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
 
-package javax.security.enterprise;
+package jakarta.security.enterprise;
 
 import java.security.GeneralSecurityException;
 
-import javax.security.enterprise.authentication.mechanism.http.HttpAuthenticationMechanism;
+import jakarta.security.enterprise.authentication.mechanism.http.HttpAuthenticationMechanism;
 
 /**
  * A generic authentication exception.

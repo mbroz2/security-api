@@ -20,5 +20,5 @@
  *
  * @version 1.0
  */
-package javax.security.enterprise.identitystore;
+package jakarta.security.enterprise.identitystore;
 

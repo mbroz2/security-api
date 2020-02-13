@@ -29,11 +29,11 @@
  * make CDI beans available. For completeness, this concerns the following annotations:
  * 
  * <ul>
- * <li>{@link javax.security.enterprise.identitystore.DatabaseIdentityStoreDefinition}</li>
- * <li>{@link javax.security.enterprise.identitystore.LdapIdentityStoreDefinition}</li>
- * <li>{@link javax.security.enterprise.authentication.mechanism.http.BasicAuthenticationMechanismDefinition}</li>
- * <li>{@link javax.security.enterprise.authentication.mechanism.http.CustomFormAuthenticationMechanismDefinition}</li>
- * <li>{@link javax.security.enterprise.authentication.mechanism.http.FormAuthenticationMechanismDefinition}</li>
+ * <li>{@link jakarta.security.enterprise.identitystore.DatabaseIdentityStoreDefinition}</li>
+ * <li>{@link jakarta.security.enterprise.identitystore.LdapIdentityStoreDefinition}</li>
+ * <li>{@link jakarta.security.enterprise.authentication.mechanism.http.BasicAuthenticationMechanismDefinition}</li>
+ * <li>{@link jakarta.security.enterprise.authentication.mechanism.http.CustomFormAuthenticationMechanismDefinition}</li>
+ * <li>{@link jakarta.security.enterprise.authentication.mechanism.http.FormAuthenticationMechanismDefinition}</li>
  * </ul>
  * 
  * For all attributes of type <code>String</code> on these annotations, Jakarta Expression Language 3.0 expressions can
@@ -63,8 +63,8 @@
  * this concerns the following annotations:
  * 
  * <ul>
- * <li>{@link javax.security.enterprise.authentication.mechanism.http.LoginToContinue}</li>
- * <li>{@link javax.security.enterprise.authentication.mechanism.http.RememberMe}</li>
+ * <li>{@link jakarta.security.enterprise.authentication.mechanism.http.LoginToContinue}</li>
+ * <li>{@link jakarta.security.enterprise.authentication.mechanism.http.RememberMe}</li>
  * </ul>
  * 
  * <p>
@@ -73,6 +73,6 @@
  *
  * @version 1.0
  */
-package javax.security.enterprise;
+package jakarta.security.enterprise;
 
-import javax.el.ELProcessor;
+import jakarta.el.ELProcessor;

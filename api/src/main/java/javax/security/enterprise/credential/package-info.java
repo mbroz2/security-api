@@ -20,5 +20,5 @@
  *
  * @version 1.0
  */
-package javax.security.enterprise.credential;
+package jakarta.security.enterprise.credential;
 

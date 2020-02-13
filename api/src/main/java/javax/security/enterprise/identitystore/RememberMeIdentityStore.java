@@ -14,15 +14,15 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
 
-package javax.security.enterprise.identitystore;
+package jakarta.security.enterprise.identitystore;
 
 import java.util.Set;
 
-import javax.security.auth.message.module.ServerAuthModule;
-import javax.security.enterprise.CallerPrincipal;
-import javax.security.enterprise.authentication.mechanism.http.RememberMe;
-import javax.security.enterprise.authentication.mechanism.http.HttpAuthenticationMechanism;
-import javax.security.enterprise.credential.RememberMeCredential;
+import jakarta.security.auth.message.module.ServerAuthModule;
+import jakarta.security.enterprise.CallerPrincipal;
+import jakarta.security.enterprise.authentication.mechanism.http.RememberMe;
+import jakarta.security.enterprise.authentication.mechanism.http.HttpAuthenticationMechanism;
+import jakarta.security.enterprise.credential.RememberMeCredential;
 
 /**
  * <code>RememberMeIdentityStore</code> is a mechanism for validating a caller's

@@ -14,7 +14,7 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
 
-package javax.security.enterprise.credential;
+package jakarta.security.enterprise.credential;
 
 /**
  * Represents the credentials typically used by standard caller name/password authentication.

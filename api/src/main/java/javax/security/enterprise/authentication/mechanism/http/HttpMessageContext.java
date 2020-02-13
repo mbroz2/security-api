@@ -14,22 +14,22 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
 
-package javax.security.enterprise.authentication.mechanism.http;
+package jakarta.security.enterprise.authentication.mechanism.http;
 
 import java.security.Principal;
 import java.util.Set;
 
-import javax.security.auth.Subject;
-import javax.security.auth.callback.CallbackHandler;
-import javax.security.auth.message.MessageInfo;
-import javax.security.enterprise.AuthenticationStatus;
-import javax.security.enterprise.CallerPrincipal;
-import javax.security.enterprise.SecurityContext;
-import javax.security.enterprise.identitystore.CredentialValidationResult;
-import javax.security.enterprise.identitystore.CredentialValidationResult.Status;
-import javax.servlet.RequestDispatcher;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.security.auth.Subject;
+import jakarta.security.auth.callback.CallbackHandler;
+import jakarta.security.auth.message.MessageInfo;
+import jakarta.security.enterprise.AuthenticationStatus;
+import jakarta.security.enterprise.CallerPrincipal;
+import jakarta.security.enterprise.SecurityContext;
+import jakarta.security.enterprise.identitystore.CredentialValidationResult;
+import jakarta.security.enterprise.identitystore.CredentialValidationResult.Status;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 /**
  * <code>HttpMessageContext</code> contains all of the per-request state information and encapsulates the client request, 
@@ -189,7 +189,7 @@ public interface HttpMessageContext {
      * 
      * @return {@link AuthenticationStatus#SEND_CONTINUE}
      * 
-     * @see RequestDispatcher#forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+     * @see RequestDispatcher#forward(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)
      */
     AuthenticationStatus forward(String path);
 

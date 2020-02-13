@@ -14,7 +14,7 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
 
-package javax.security.enterprise.identitystore;
+package jakarta.security.enterprise.identitystore;
 
 /**
  * This interface represents the built-in {@code Pbkdf2PasswordHash} implementation.

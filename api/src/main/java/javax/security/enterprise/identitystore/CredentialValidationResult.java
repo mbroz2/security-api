@@ -14,19 +14,19 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
 
-package javax.security.enterprise.identitystore;
+package jakarta.security.enterprise.identitystore;
 
 import static java.util.Collections.emptySet;
 import static java.util.Collections.unmodifiableSet;
-import static javax.security.enterprise.identitystore.CredentialValidationResult.Status.INVALID;
-import static javax.security.enterprise.identitystore.CredentialValidationResult.Status.NOT_VALIDATED;
-import static javax.security.enterprise.identitystore.CredentialValidationResult.Status.VALID;
+import static jakarta.security.enterprise.identitystore.CredentialValidationResult.Status.INVALID;
+import static jakarta.security.enterprise.identitystore.CredentialValidationResult.Status.NOT_VALIDATED;
+import static jakarta.security.enterprise.identitystore.CredentialValidationResult.Status.VALID;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.security.enterprise.CallerPrincipal;
-import javax.security.enterprise.credential.Credential;
+import jakarta.security.enterprise.CallerPrincipal;
+import jakarta.security.enterprise.credential.Credential;
 
 /**
  * <code>CredentialValidationResult</code> is the result from an attempt to

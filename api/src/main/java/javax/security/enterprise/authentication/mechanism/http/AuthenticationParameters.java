@@ -14,11 +14,11 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
 
-package javax.security.enterprise.authentication.mechanism.http;
+package jakarta.security.enterprise.authentication.mechanism.http;
 
-import javax.security.enterprise.authentication.mechanism.http.RememberMe;
-import javax.security.enterprise.identitystore.RememberMeIdentityStore;
-import javax.security.enterprise.credential.Credential;
+import jakarta.security.enterprise.authentication.mechanism.http.RememberMe;
+import jakarta.security.enterprise.identitystore.RememberMeIdentityStore;
+import jakarta.security.enterprise.credential.Credential;
 
 /**
  * Parameters that are provided along with an authentication request.

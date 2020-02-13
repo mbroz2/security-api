@@ -14,7 +14,7 @@
  *
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
-package javax.security.enterprise.authentication.mechanism.http;
+package jakarta.security.enterprise.authentication.mechanism.http;
 
 import static java.lang.annotation.ElementType.TYPE;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
@@ -23,15 +23,15 @@ import java.lang.annotation.Inherited;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
-import javax.interceptor.InterceptorBinding;
+import jakarta.interceptor.InterceptorBinding;
 
 /**
  * The AutoApplySession annotation provides an application the ability to declaratively designate
- * that an authentication mechanism uses the <code>javax.servlet.http.registerSession</code>
+ * that an authentication mechanism uses the <code>jakarta.servlet.http.registerSession</code>
  * and auto applies this for every request.
  *
  * <p>
- * See the Jakarta Authentication spec for further details on <code>javax.servlet.http.registerSession</code>.
+ * See the Jakarta Authentication spec for further details on <code>jakarta.servlet.http.registerSession</code>.
  *
  * <p>
  * This support is provided via an implementation of a Jakarta Interceptors interceptor that conducts the

@@ -41,10 +41,10 @@
 
     <properties>
         <non_final>false</non_final>
-        <extension.name>javax.security.enterprise</extension.name>
+        <extension.name>jakarta.security.enterprise</extension.name>
         <spec.version>1.0</spec.version>
 
-        <packages.export>javax.security.enterprise.*</packages.export>
+        <packages.export>jakarta.security.enterprise.*</packages.export>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -232,7 +232,7 @@ Use is subject to <a href="{@docRoot}/doc-files/speclicense.html" target="_top">
                                 <group>
                                     <title>Jakarta Security API Documentation</title>
                                     <packages>
-                                        javax.security.enterprise.*
+                                        jakarta.security.enterprise.*
                                     </packages>
                                 </group>
                             </groups>

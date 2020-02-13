@@ -15,7 +15,7 @@
  * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
  */
 
-package javax.security.enterprise.authentication.mechanism.http;
+package jakarta.security.enterprise.authentication.mechanism.http;
 
 import static java.lang.annotation.ElementType.TYPE;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
@@ -24,12 +24,12 @@ import java.lang.annotation.Inherited;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
-import javax.el.ELProcessor;
-import javax.enterprise.util.Nonbinding;
-import javax.interceptor.InterceptorBinding;
-import javax.security.enterprise.identitystore.IdentityStore;
-import javax.security.enterprise.identitystore.RememberMeIdentityStore;
-import javax.servlet.http.Cookie;
+import jakarta.el.ELProcessor;
+import jakarta.enterprise.util.Nonbinding;
+import jakarta.interceptor.InterceptorBinding;
+import jakarta.security.enterprise.identitystore.IdentityStore;
+import jakarta.security.enterprise.identitystore.RememberMeIdentityStore;
+import jakarta.servlet.http.Cookie;
 
 /**
  * The RememberMe annotation provides an application the ability to declaratively designate

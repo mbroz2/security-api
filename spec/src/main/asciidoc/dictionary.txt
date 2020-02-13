@@ -29,7 +29,7 @@ interceptors
 JavaBean
 JavaBeans
 JavaServer
-javax
+jakarta
 jboss
 JCP
 JDK

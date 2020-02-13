@@ -22,5 +22,5 @@
  *
  * @version 1.0
  */
-package javax.security.enterprise.authentication.mechanism.http;
+package jakarta.security.enterprise.authentication.mechanism.http;
 
